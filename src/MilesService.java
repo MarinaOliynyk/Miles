@@ -1,5 +1,5 @@
 public class MilesService {
-    public int calculete(int ticketPrice) {
+    public int calculete(boolean registered, int ticketPrice) {
         int miles = ticketPrice / 20;
 
         return miles;
